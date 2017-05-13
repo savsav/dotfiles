@@ -149,7 +149,7 @@ dockershell() {
 }
 
 dockerps() {
-    docker ps -a | sed 's/redbox-\(.*\):[0-9]*\///g'
+    docker ps -a
 }
 
 dockerimg() {
